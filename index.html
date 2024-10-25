@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extrair Dados JSON com JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="window.location='grafico.html'">Gráfico</button>
+    <div style="display: flex; justify-content: space-between;">
+        <h1>Dados JSON da API</h1>
+        <div style="display: flex; flex-direction: column; gap: 3px;">
+            <div style="display: flex; gap: 5px;">
+                <div style="background-color: red;" class="led"></div>
+                <h4>0 - 20</h4>
+            </div>
+            <div style="display: flex; gap: 5px;">
+                <div style="background-color: orange;" class="led"></div>
+                <h4>21 - 40</h4>
+            </div>
+            <div style="display: flex; gap: 5px;">
+                <div style="background-color: yellow;" class="led"></div>
+                <h4>41 - 60</h4>
+            </div>
+            <div style="display: flex; gap: 5px;">
+                <div style="background-color: lightgreen;" class="led"></div>
+                <h4>61 - 80</h4>
+            </div>
+            <div style="display: flex; gap: 5px;">
+                <div style="background-color: green;" class="led"></div>
+                <h4>81 - 100</h4>
+            </div>
+            <div style="display: flex; gap: 5px;">
+                <div style="background-color: gray;" class="led"></div>
+                <h4>Outros</h4>
+            </div>
+        </div>
+    </div>
+    <table id="tabela">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>NOME</th>
+            <th>SENSOR</th>
+            <th>VALOR</th>
+            <th>LED</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Coisas da tabela -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
